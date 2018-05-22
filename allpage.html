@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>衣食住行</title>
+<link rel="stylesheet" href="css/yangshi.css" />
+</head>
+
+<body>
+ <div class="page">
+   <div class="nav">
+     <img src="img/elife.gif" />
+     <a href="#" onclick="showdenglu()">LOGIN</a>
+     </div>
+     
+     <div class="denglu" id="denglu" onmouseleave="hiddendenglu()">
+       <form action="abcd.php" method="post" onsubmit="return check(this)">
+       <label>&nbsp;账户:</label>
+        <input type="text"  class="h1" name="email" id="email"/><br>
+        <label>&nbsp;密码:</label>
+        <input type="password" name="password" class="h1" id="password"/><br />
+        <input type="button"  value="注册账户" class="h2"/>
+         <input type="submit" value="登录" class="h3"/>
+       </form>
+     </div>
+     
+    <div class="box">
+    <form action="abc.php" method="post" onsubmit="return check(this)">
+    <input type="text" name="tele" placeholder="请手机号码" class="one two" id="tele"/>
+    <img src="img/true.gif" />
+    <input type="text" placeholder="输入密码" class="one" id="password"/>
+    <img src="img/true.gif" />
+    <input type="text" placeholder="确认输入密码" class="one" id="password1"/>
+    <img src="img/wrong.gif" />  
+    <input type="submit" name="submit" value="注册&登录" class="three"/> 
+    </form>
+    </div>
+    
+    <div class="down">
+       <div class="pic">
+         <ul>
+         <li><a href="#"><img src="img/picture-1.gif" /></a></li>
+         <li><a href="#"><img src="img/picture-2.gif" /></a></li>
+         <li><a href="#"><img src="img/picture-3.gif" /></a></li>
+         <li><a href="#"><img src="img/picture-4.gif" /></a></li>
+       </ul>
+       </div>
+       <div class="con">
+         <img src="img/left.gif"/>
+          <p>&nbsp;旅游不在乎终点，而在意途中的人和事还有那些美好的回忆和景色&nbsp;</p>
+         <img src="img/right.gif"  />
+         <div class="dot">
+         <img src="img/dot.png"/>
+       </div>
+    </div>
+ </div>
+ <script src="js/dianji.js"></script>
+</body>
+</html>
